@@ -1,7 +1,12 @@
+import Navbar from "@/components/navbar/navbar";
+
 export default function Home() {
   return (
-    <i>
-    Hello World
-    </i>
+    <div className="frenchUS">
+      <div className="">
+
+        < Navbar/>
+      </div>
+    </div>
   );
 }
